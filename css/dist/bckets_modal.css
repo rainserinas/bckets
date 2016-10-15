@@ -1,0 +1,131 @@
+.btn-primary,
+.btn-primary:hover {
+  background-color: #20b698;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  padding: 10px 66px;
+  border-radius: 0px;
+  border: 1px solid #20b698;
+  background-image: none;
+}
+.modal-banner {
+  background-image: url('../../img/modal-header-banner.jpg');
+  padding: 5px 20px;
+}
+.modal-banner h2 {
+  font-family: 'Open sans', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 32px;
+  margin-top: 10px;
+}
+.modal-banner h3 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: -5px;
+}
+.section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.modal-content {
+  padding: 5px 20px;
+  border-radius: 0px;
+  border: 1px solid #fff;
+}
+.form-control {
+  border-radius: 0px;
+  background-color: #fafafa;
+}
+.img-responsive {
+  padding: 10px;
+}
+/* Start: tour overview modal */
+.section-3 p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 18px;
+}
+.section-6 button {
+  width: 100%;
+  margin-top: 25px;
+  padding: 11px 0px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #48bdd5;
+  color: #48bdd5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.section-8 {
+  padding-top: 15px;
+}
+.section-8 button {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+/* End: tour overview modal */
+/* Start: Choose Category Modal */
+.cat-img {
+  padding: 32px 0px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.cat-img p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+#choose-categories-section-1 {
+  padding: 0px 8px;
+  text-align: center;
+}
+.no-padding-left-right {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.cat-1 {
+  background-image: url(../../img/cat-1.jpg);
+}
+.cat-2 {
+  background-image: url(../../img/cat-2.jpg);
+}
+.cat-3 {
+  background-image: url(../../img/cat-3.jpg);
+}
+.cat-4 {
+  background-image: url(../../img/cat-4.jpg);
+}
+.cat-5 {
+  background-image: url(../../img/cat-5.jpg);
+}
+.cat-6 {
+  background-image: url(../../img/cat-6.jpg);
+}
+.cat-7 {
+  background-image: url(../../img/cat-7.jpg);
+}
+.cat-8 {
+  background-image: url(../../img/cat-8.jpg);
+}
+.cat-9 {
+  background-image: url(../../img/cat-9.jpg);
+}
+#choose-categories-section-2 {
+  padding: 10px 0px;
+}
+#choose-categories-section-2 a {
+  margin-left: 47px;
+}
+#choose-categories-section-2 button {
+  margin-left: 14px;
+}
+/* End: Choose Category Modal */
