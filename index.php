@@ -1,1 +1,1 @@
-<?php include_once( 'Location: /pages/bckets_modal.html' );  ?>
+<?php include_once("home.html");  ?>
