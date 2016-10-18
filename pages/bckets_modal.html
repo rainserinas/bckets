@@ -31,6 +31,9 @@
         <div>
             <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#choose-category">Choose Categories</button>
         </div>
+        <div>
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#tour-details">Tour Details</button>
+        </div>
     </div>
 
     <!-- Start: touroverview -->
@@ -200,5 +203,94 @@
         </div>
     </div>
     <!-- End: Choose Categories -->
+
+    <!-- Start: Tour Details -->
+    <div id="modal-section">
+        <div class="modal fade" id="tour-details" role="dialog">
+            <div class="modal-dialog"> 
+                <section>
+                    <div class="modal-banner">
+                        <h2>Tour Details</h2>
+                        <h3>We promise, this is the last one.</h3>
+                    </div>
+                </section>
+                <section>
+                    <div class="modal-content">
+                        <section id="tour-details-section-1">
+                            <h3 class="section-title">Long Description</h3>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </section>
+                        <section id="tour-details-section-2">
+                            <h3 class="section-title">Fine Print</h3>
+                            <input type="text" class="form-control"/>
+                            <input type="text" class="form-control"/>
+                            <button>+ Add More Fine Prints</button>
+                        </section>
+                        <hr>
+                        <section id="tour-details-section-3">
+                            <h3 class="section-title">Add Itenerary</h3>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h3 class="section-title">Type</h3>
+                                    <select class="form-control">
+                                        <option>test</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-10">
+                                    <h3 class="section-title">Title</h3>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="section-title">Short Description</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="pull-right">0/300 characters</p>
+                                </div>
+                            </div>
+                            <textarea class="form-control" rows="5"></textarea>
+                            <a class="date-time">+ Add Date & Time</a>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <h3 class="section-title">Type</h3>
+                                    <select class="form-control">
+                                        <option>test</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-10">
+                                    <h3 class="section-title">Title</h3>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3 class="section-title">Short Description</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="pull-right">0/300 characters</p>
+                                </div>
+                            </div>
+                            <textarea class="form-control" rows="5"></textarea>
+                            <a class="date-time">+ Add Date & Time</a>
+                            <button>+ Add Itenerary</button>
+                        </section>
+                        <section id="tour-details-section-4">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Share on: <i class="fa fa-facebook-official" aria-hidden="true"></i> <i class="fa fa-twitter-square" aria-hidden="true"></i> </p>
+                                </div>
+                                <div class="col-md-6 pull-right">
+                                    <a>Back</a>
+                                    <button class="btn btn-primary">Post</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- End: Tour Details -->
 </body>
 </html>
