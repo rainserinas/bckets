@@ -197,3 +197,75 @@
   font-size: 25px;
 }
 /* End: Tour Details modal */
+/* Start: Small Display */
+#small-display {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+#small-display .card-display {
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+}
+#small-display .card-display:hover {
+  box-shadow: 0 8px 16px 0 #000000;
+}
+#small-display-section-1 {
+  background-image: url(../../img/small-banner.jpg);
+  height: 207px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 15px;
+}
+#small-display-section-1 .off {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: #f39f00;
+}
+#small-display-section-1 .day-left {
+  margin-top: -13px;
+  font-family: 'Open sans', sans-serif;
+  color: #fff;
+  font-weight: 800;
+}
+#small-display-section-1 .col-md-6 {
+  padding: 6px 24px;
+  text-align: right;
+}
+#small-display-section-2 img {
+  margin-top: -30px;
+}
+#small-display-section-3 h3 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  margin-top: 10px;
+}
+#small-display-section-3 h3 i {
+  color: #5bd784;
+}
+#small-display-section-3 .star i {
+  color: #f1c500;
+  margin-top: -5px;
+}
+#small-display-section-3 h2 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 20px;
+  color: #20b698;
+  font-weight: 800;
+  margin-top: 10px;
+}
+#small-display-section-3 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+#small-display-section-4 {
+  background-color: #f8f8f8;
+}
+#small-display-section-4 p {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+/* End: Small Display */
