@@ -8,7 +8,7 @@
     display: inline-block;
     vertical-align: top;
   }
-  .first {
+  #footer .first {
     margin-right: 80px;
   }
   #seekShare h1,
@@ -21,27 +21,27 @@
   .search-main .form-control {
     height: 55px;
   }
-  .destinations {
+  .search-main .destinations {
     width: 32%;
     float: left;
   }
-  .date {
+  .search-main .date {
     width: 24%;
     float: left;
   }
-  .category {
+  .search-main .category {
     width: 27%;
     float: left;
   }
-  .btn-search-holder {
+  .search-main .btn-search-holder {
     width: 14%;
     float: left!important;
   }
-  .btn-search-holder .btn {
+  .search-main .btn-search-holder .btn {
     padding: 16px 40px;
     height: 55px;
   }
-  .has-feedback-left .form-control-feedback {
+  .search-main .has-feedback-left .form-control-feedback {
     left: 0;
     top: 10px!important;
   }

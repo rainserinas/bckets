@@ -13,12 +13,22 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
   font-size: 28px;
 }
+#homeMain .search-main .category .has-feedback-left .form-control {
+  padding-left: 34px;
+  padding-right: 30px;
+}
 #homeMain .search-main .date .form-control {
   border-left: none;
   border-right: none;
 }
 #homeMain .search-main .btn-search-holder {
   float: right;
+}
+#homeMain .search-main .fa-sort-desc {
+  right: 0;
+  left: initial;
+  font-size: 14px;
+  top: 8px!important;
 }
 #homeMain .photo-by {
   text-align: center;

@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-datepicker3.standalone.css">
 
     <link rel="stylesheet" href="../css/dist/home.css">
     <link rel="stylesheet" href="../css/dist/generalize.css">
@@ -22,7 +23,8 @@
 
     <script src="../js/vendor/jquery-1.11.2.min.js"></script>
     <script src="../js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="../js/bootstrap-datepicker.js"></script>
+    <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
     <body>
         <section id="homeMain" class="banner-image light-text">
@@ -41,7 +43,7 @@
                             </div>
                             <div class="date">
                                 <div class="form-group has-feedback has-feedback-left">
-                                    <input type="text" class="form-control" placeholder="Travel Date" value="">
+                                    <input data-provide="datepicker" type="text" class="form-control" placeholder="Travel Date" value="">
                                     <i class="form-control-feedback fa fa-calendar" aria-hidden="true"></i>
                                 </div>
                             </div>
@@ -49,6 +51,7 @@
                                 <div class="form-group has-feedback has-feedback-left">
                                     <input type="text" class="form-control" placeholder="All Categories" value="">
                                     <i class="form-control-feedback fa fa-suitcase" aria-hidden="true"></i>
+                                    <i class="form-control-feedback fa fa-sort-desc" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <div class="btn-search-holder">
