@@ -1,0 +1,85 @@
+#homeMain {
+  background-image: url(../../img/home-main-banner.jpg);
+  padding: 120px 0 0;
+  background-position: 68% center;
+}
+#homeMain .title h1 {
+  font-weight: 600;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 42px;
+}
+#homeMain .title h2 {
+  font-weight: 100;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  font-size: 28px;
+}
+#homeMain .search-main .category .has-feedback-left .form-control {
+  padding-left: 34px;
+  padding-right: 30px;
+}
+#homeMain .search-main .date .form-control {
+  border-left: none;
+  border-right: none;
+}
+#homeMain .search-main .btn-search-holder {
+  float: right;
+}
+#homeMain .search-main .fa-sort-desc {
+  right: 0;
+  left: initial;
+  font-size: 14px;
+  top: 8px!important;
+}
+#homeMain .photo-by {
+  text-align: center;
+  clear: both;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+#homeMain .photo-by a {
+  color: #20b698;
+}
+#homeMain .photo-by span {
+  padding: 0 5px;
+}
+#seekShare h3 {
+  font-size: 22px;
+}
+#seekShare .sub {
+  font-size: 18px;
+}
+#seekShare .light {
+  font-size: 22px;
+}
+#seekShare img {
+  padding-bottom: 15px;
+  margin: auto;
+}
+#seekShare hr {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-top: 2px solid #ebf2f2;
+}
+#homeCtaBanner {
+  padding: 90px 0;
+  background-image: url(../../img/home-cta-banner.jpg);
+}
+#homeCtaBanner h1 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+#homeCtaBanner .sub {
+  font-size: 22px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+#home-cta {
+  background-image: url(../../img/home-cta-banner2.jpg);
+}
+#home-cta p {
+  font-size: 18px;
+}
+#home-cta .sub {
+  font-size: 22px;
+}
