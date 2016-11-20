@@ -294,6 +294,9 @@ h6 {
 .float-right {
   float: right;
 }
+.float-left {
+  float: left;
+}
 .light {
   font-weight: 300;
 }
@@ -329,6 +332,163 @@ h6 {
   .padding-bottom-sm {
     padding-bottom: 30px;
   }
+}
+/* Header
+  -------------------------------------------------- */
+#mySidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#mySidenav .header-nav {
+  padding-left: 20px;
+}
+#mySidenav .header-nav li {
+  padding-bottom: 20px;
+}
+#mySidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+#mySidenav a {
+  color: #fff;
+}
+#header.sticky {
+  height: 72px;
+  background: #333;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+#header {
+  padding-top: 20px;
+  height: 80px;
+  transition: opacity 0.3s ease, background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+#header .hidden-md-up {
+  display: block;
+}
+#header .hamburger {
+  text-align: right;
+  color: #fff;
+  font-size: 25px;
+}
+#header .header-nav {
+  text-align: right;
+  display: none;
+}
+#header .header-nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#header .header-nav li a {
+  color: #fff;
+  font-size: 16px;
+}
+#header .header-nav .signup a {
+  color: #20b698;
+  font-weight: bold;
+}
+#header .header-nav .btn-transparent {
+  padding: 7px 16px;
+}
+.modal-login .btn-primary {
+  width: 100%;
+  padding: 13px;
+  box-shadow: none;
+  font-size: 18px;
+  text-shadow: none;
+}
+.modal-login .btn-primary:hover,
+.modal-login .btn-primary:focus {
+  color: #20b698;
+}
+.modal-login .form-control {
+  border-radius: 0px;
+  background-color: #fafafa;
+  height: 45px;
+  border-color: #ebe9e9;
+  box-shadow: none;
+}
+.modal-login .or {
+  padding: 15px 0;
+  margin: auto;
+}
+.modal-login .remember {
+  font-size: 14px;
+}
+.modal-login .remember .float-left,
+.modal-login .remember .float-right {
+  padding-bottom: 10px;
+}
+.modal-login .remember .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.modal-login .modal-content {
+  padding: 15px 25px;
+  box-shadow: none;
+}
+.modal-login .modal-footer {
+  padding: 10px 15px;
+  text-align: center;
+  border-top: none;
+  background-color: #ebf2f2;
+  box-shadow: none;
+}
+.modal-login .modal-footer .donthave span {
+  font-size: 14px;
+  padding-right: 14px;
+  font-weight: 600;
+}
+.modal-login .modal-footer .btn-transparent {
+  color: #20b698;
+  border: 1px solid #20b698;
+  border-radius: 0;
+  padding: 8px 20px;
+}
+.modal-login .modal-footer .btn-transparent:hover,
+.modal-login .modal-footer .btn-transparent:focus {
+  color: #fff;
+  border: 1px solid #20b698;
+}
+.modal-login .signup h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.modal-login .signup .fb-btn {
+  margin-bottom: 10px;
+}
+.modal-login .signup .fb-btn a {
+  background-color: #39579a;
+  padding: 15px 11px 15px 39px;
+  color: #fff;
+  width: 100%;
+  border-radius: 0;
+}
+.modal-login .signup .fb-btn img {
+  float: left;
+}
+.modal-login .signup .google-btn img {
+  float: left;
+}
+.modal-login .signup .google-btn a {
+  background-color: #fff;
+  padding: 15px 11px 15px 35px;
+  color: #ea4335;
+  border-color: #ea4335;
+  width: 100%;
+  border-radius: 0;
 }
 /* footer
   -------------------------------------------------- */
@@ -454,7 +614,4 @@ h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 14px;
-}
-.img-responsive {
-  padding: 10px;
 }

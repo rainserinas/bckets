@@ -1,7 +1,10 @@
 #homeMain {
   background-image: url(../../img/home-main-banner.jpg);
-  padding: 120px 0 0;
+  padding: 170px 0 0;
   background-position: 68% center;
+}
+#homeMain .title {
+  margin-bottom: 40px;
 }
 #homeMain .title h1 {
   font-weight: 600;
