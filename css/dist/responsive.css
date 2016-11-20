@@ -24,6 +24,9 @@
   }
 }
 @media (min-width: 768px) {
+  .modal-login .signup h4 {
+    font-size: 24px;
+  }
   .modal-sm {
     width: 370px;
   }
