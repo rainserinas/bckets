@@ -157,6 +157,7 @@
   padding-bottom: 50px;
 }
 #small-display .card-display {
+  width: 330px;
   box-shadow: 0 4px 8px 0 #000000;
   transition: 0.3s;
 }
