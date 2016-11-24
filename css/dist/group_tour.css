@@ -1,0 +1,74 @@
+body {
+  padding: 10px 10px;
+}
+.card-display {
+  width: 420px;
+  box-shadow: 0 4px 8px 0 #000000;
+  transition: 0.3s;
+  padding: 10px 8px;
+}
+.card-display .section-one .col-md-2 img {
+  width: 50px;
+}
+.card-display .section-one h2 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+.card-display .section-one .star-img {
+  margin-top: -25px;
+}
+.card-display .section-one img.option-icons {
+  padding: 5px;
+}
+.card-display .section-one .title-star {
+  padding-top: 8px;
+}
+.card-display .section-two {
+  background-image: url('../../img/group-tour-backimg.jpg');
+  padding: 85px 0px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.card-display .section-three button {
+  width: 100%;
+  margin-top: 10px;
+}
+.card-display .section-four {
+  border: solid 1px #cac8c8;
+  margin-top: 10px;
+}
+.card-display .section-four ul {
+  list-style-type: none;
+}
+.card-display .section-four hr {
+  color: #cac8c8;
+}
+.card-display .section-four .s4-info {
+  padding: 10px 15px;
+}
+.card-display .section-four .s4-info h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #48bdd5;
+}
+.card-display .section-four .s4-info span {
+  color: #cccccc;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+.card-display .section-four .s4-info h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.card-display .section-four .s4-info p.location {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #48bdd5;
+  margin-top: -5px;
+}
