@@ -318,6 +318,17 @@ h6 {
 .clear-fix {
   clear: both;
 }
+.vertical-align {
+  list-style: none;
+  padding-left: 0;
+}
+.vertical-align li {
+  display: inline-block;
+  padding-right: 10px;
+}
+.vertical-align li:last-child {
+  padding-right: 0;
+}
 @media (max-width: 1199px) {
   .padding-bottom-lg {
     padding-bottom: 30px;
@@ -551,9 +562,31 @@ h6 {
 }
 /* Other
   -------------------------------------------------- */
+.card-template {
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
 .card-template .card-image-section {
   background-color: #fff;
-  padding: 10px;
+  padding: 15px;
+}
+.card-template .card-image-section .group-date ul {
+  padding-left: 0;
+  list-style: none;
+}
+.card-template .card-image-section .group-date ul li {
+  float: none;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
+.card-template .card-image-section .group-date ul li:first-child {
+  padding-right: 10px;
+}
+.card-template .card-image-section .group-date ul li img {
+  padding-right: 5px;
+  padding-bottom: 3px;
 }
 .card-template .card-image-section .card-image {
   height: 140px;
@@ -563,10 +596,12 @@ h6 {
   margin-bottom: 0;
   color: #f39f00;
   font-size: 20px;
+  font-weight: bold;
 }
 .card-template .card-image-section .card-image p {
   font-size: 14px;
   color: #fff;
+  font-weight: bold;
 }
 .card-template .card-image-section .card-headshot {
   position: relative;
@@ -623,6 +658,7 @@ h6 {
 }
 .card-template .card-detailed-section {
   background-color: #f8f8f8;
+  border-top: 1px solid #ebe9e9;
   padding: 10px;
 }
 .card-template .card-detailed-section p {
@@ -635,6 +671,229 @@ h6 {
   font-size: 16px;
   color: #f77f79;
   margin: 0;
+}
+.card-group-template {
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.card-group-template .card-image-section {
+  background-color: #fff;
+  padding: 10px;
+}
+.card-group-template .card-image-section .group-date ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+.card-group-template .card-image-section .group-date ul li {
+  float: none;
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
+.card-group-template .card-image-section .group-date ul li:first-child {
+  padding-right: 10px;
+}
+.card-group-template .card-image-section .group-date ul li img {
+  padding-right: 5px;
+  padding-bottom: 3px;
+}
+.card-group-template .card-image-section .card-image {
+  height: 190px;
+  padding: 10px;
+}
+.card-group-template .card-image-section .card-image h4 {
+  margin-bottom: 0;
+  color: #f39f00;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-group-template .card-image-section .card-image p {
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
+.card-group-template .card-image-section .card-headshot {
+  position: relative;
+  top: 88px;
+}
+.card-group-template .card-image-section .card-headshot ul {
+  list-style: none;
+  padding-left: 0;
+}
+.card-group-template .card-image-section .card-headshot ul .first-head img {
+  width: 53px;
+  height: 53px;
+  margin-right: -16px;
+  border-radius: 50%;
+}
+.card-group-template .card-image-section .card-headshot ul .last-head img {
+  width: 53px;
+  height: 53px;
+  margin-left: -16px;
+  border-radius: 50%;
+}
+.card-group-template .card-image-section .card-headshot ul .middle-head {
+  z-index: 99;
+}
+.card-group-template .card-image-section .card-headshot ul .middle-head img {
+  border-radius: 50%;
+  width: 69px;
+  height: 69px;
+}
+.card-group-template .card-image-section .card-headshot ul li {
+  float: none;
+  position: relative;
+  display: inline-block;
+}
+.card-group-template .card-image-section .card-title {
+  padding-top: 36px;
+}
+.card-group-template .card-image-section .card-title h3 {
+  font-size: 18px;
+  color: #20b698;
+  font-weight: 600;
+}
+.card-group-template .card-image-section .card-title h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+.card-group-template .card-image-section .card-title .date {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-group-template .card-image-section .card-title .fa-plane {
+  padding-right: 5px;
+}
+.card-group-template .card-detailed-section {
+  background-color: #f8f8f8;
+  border-top: 1px solid #ebe9e9;
+  padding: 15px ;
+}
+.card-group-template .card-detailed-section p {
+  font-size: 14px;
+  color: #333;
+  font-weight: 100;
+}
+.card-group-template .card-detailed-section h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: #f77f79;
+  margin: 0;
+}
+.group-tour-template .group-tour-header-holder {
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader {
+  background-color: #fafafa;
+  padding: 10px 15px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader ul {
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader ul li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader ul li:first-child,
+.group-tour-template .group-tour-header-holder .group-tour-subheader ul li:first-child + li {
+  padding-right: 10px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader .head-img img {
+  border-radius: 50%;
+  width: 69px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader .head-img,
+.group-tour-template .group-tour-header-holder .group-tour-subheader .name {
+  display: inline-block;
+  vertical-align: middle;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader .name h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-subheader .star {
+  color: #f1c500;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header {
+  background-color: #20b69a;
+  padding: 15px 0px 0;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header p {
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot {
+  background-color: #fff;
+  border-top: none!important;
+  border: 10px solid transparent;
+  -moz-border-image: -moz-linear-gradient(top, #49b9a4 0%, #1db2cf 100%);
+  -webkit-border-image: -webkit-linear-gradient(top, #49b9a4 0%, #1db2cf 100%);
+  border-image: linear-gradient(to bottom, #49b9a4 0%, #1db2cf 100%);
+  border-image-slice: 1;
+  padding: 20px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .plus {
+  background-color: #5c6d80;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  padding: 12px 10px;
+  color: #fff;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder {
+  float: right;
+  text-align: center;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .date {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .date img {
+  padding-right: 7px;
+  padding-bottom: 3px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .date li:last-child {
+  color: #1cacc7;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .pax {
+  font-size: 30px;
+  font-weight: bold;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-no {
+  font-size: 36px;
+  color: #1db2cf;
+  font-weight: 600;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .join-tour {
+  background-color: #1db2cf;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 30px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-left {
+  color: #1db2cf;
+  font-weight: 600;
 }
 .section-title {
   font-family: 'Open Sans', sans-serif;
