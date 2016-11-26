@@ -1,1 +1,1 @@
-<?php include_once("pages/bckets_modal.html");  ?>
+<?php include_once("pages/index.html");  ?>
