@@ -1,74 +1,267 @@
 body {
   padding: 10px 10px;
+  background-color: #ebf2f2;
 }
-.card-display {
-  width: 420px;
-  box-shadow: 0 4px 8px 0 #000000;
-  transition: 0.3s;
+.card-group-template {
+  width: 535px;
   padding: 10px 8px;
+  background-color: #fafafa;
 }
-.card-display .section-one .col-md-2 img {
+.card-group-template .section-one .col-xs-2 img {
   width: 50px;
 }
-.card-display .section-one h2 {
+.card-group-template .section-one i {
+  color: #5bd784;
+}
+.card-group-template .section-one h2 {
   font-family: 'Open sans', sans-serif;
   font-size: 15px;
   font-weight: 700;
 }
-.card-display .section-one .star-img {
+.card-group-template .section-one .star-img {
   margin-top: -25px;
 }
-.card-display .section-one img.option-icons {
-  padding: 5px;
+.card-group-template .section-one img.option-icons {
+  padding: 5px 7px;
 }
-.card-display .section-one .title-star {
+.card-group-template .section-one .title-star {
   padding-top: 8px;
+  margin-left: -110px;
 }
-.card-display .section-two {
+.card-group-template .section-one .title-star img {
+  margin-left: -85px;
+}
+.card-group-template .section-one .col-xs-5 {
+  padding-right: 0px;
+}
+.card-group-template .section-two {
   background-image: url('../../img/group-tour-backimg.jpg');
-  padding: 85px 0px;
+  padding: 134px 0px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
-.card-display .section-three button {
+.card-group-template .section-three {
+  background-color: #fff;
+}
+.card-group-template .section-three button {
   width: 100%;
   margin-top: 10px;
 }
-.card-display .section-four {
-  border: solid 1px #cac8c8;
-  margin-top: 10px;
+.card-group-template .section-three button:hover {
+  color: #20b698;
 }
-.card-display .section-four ul {
+.card-group-template .section-four {
+  background-color: #fff;
+  border: solid 1px #ebe9e9;
+  margin-top: 10px;
+  height: 215px;
+}
+.card-group-template .section-four ul {
   list-style-type: none;
 }
-.card-display .section-four hr {
+.card-group-template .section-four hr {
   color: #cac8c8;
 }
-.card-display .section-four .s4-info {
+.card-group-template .section-four .s4-info {
   padding: 10px 15px;
 }
-.card-display .section-four .s4-info h2 {
+.card-group-template .section-four .s4-info h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 600;
   color: #48bdd5;
+  text-align: left;
 }
-.card-display .section-four .s4-info span {
+.card-group-template .section-four .s4-info span {
   color: #cccccc;
   text-decoration: line-through;
   padding-left: 10px;
 }
-.card-display .section-four .s4-info h3 {
+.card-group-template .section-four .s4-info h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #000;
+  text-align: left;
 }
-.card-display .section-four .s4-info p.location {
+.card-group-template .section-four .s4-info p.location {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #48bdd5;
   margin-top: -5px;
+  text-align: left;
+}
+.card-group-template .section-four .s4-info ul {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+.card-group-template .section-four .s4-info ul li {
+  width: auto;
+  float: left;
+  padding: 0px 6px;
+}
+.card-group-template .section-four .s4-info p.s4-li-info {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-group-template .section-four .s4-info .blue-green {
+  color: #20b698;
+}
+.card-group-template .section-four .tags {
+  padding-left: 15px;
+  margin-top: -5px;
+}
+.card-group-template .section-four .tags li {
+  width: auto;
+  float: left;
+  padding: 0px 6px;
+}
+.card-group-template .section-four .tags li p {
+  background-color: #ebe9e9;
+  padding: 2px 20px;
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+}
+.card-group-template .section-four .tags .add-cat-btn {
+  margin-top: 3px;
+}
+.card-group-template .section-four .tags a {
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #20b698;
+}
+.card-group-template .section-five {
+  background-color: #fff;
+  border: solid 1px #ebe9e9;
+  margin-top: 10px;
+  padding: 8px 15px;
+}
+.card-group-template .section-five .section-five-title {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+.card-group-template .section-five .section-five-details p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.card-group-template .section-six {
+  background-color: #fff;
+  border: solid 1px #ebe9e9;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.card-group-template .section-six .nav {
+  border-radius: 1px;
+}
+.card-group-template .section-six .nav-justified > li {
+  display: table-cell;
+  width: 1%;
+  border: solid 1px #ebe9e9;
+}
+.card-group-template .section-six .nav-pills > li.active > a,
+.card-group-template .section-six .nav-pills > li.active > a:hover,
+.card-group-template .section-six .nav-pills > li.active > a:focus {
+  color: #48bdd5;
+  background-color: #337ab7;
+}
+.card-group-template .section-six .nav-pills > li.active > a,
+.card-group-template .section-six .nav-pills > li.active > a:hover,
+.card-group-template .section-six .nav-pills > li.active > a:focus {
+  color: #48bdd5;
+  background-color: #fff;
+}
+.card-group-template .section-six .inner-padding {
+  padding: 10px 15px;
+}
+.card-group-template .section-six .inner-padding ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.card-group-template .section-six .inner-padding li:before {
+  font-family: 'FontAwesome';
+  content: '\f105';
+  padding-right: 10px;
+}
+.card-group-template .section-six .inner-padding li {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+}
+.card-group-template .section-six .details-p1,
+.card-group-template .section-six .details-p2 {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+}
+.card-group-template .section-six .row .text-center {
+  margin-top: -10px;
+}
+.card-group-template .section-six .row .text-center a {
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #48bdd5;
+}
+.card-group-template .section-seven {
+  background-color: #fff;
+  border: solid 1px #ebe9e9;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.card-group-template .section-seven h2 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+  margin-top: 7px;
+}
+.card-group-template .section-seven h2 span {
+  font-family: 'Open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0px 6px;
+  border: 1px solid #5bd784;
+  padding: 5px 10px;
+  color: #20b698;
+}
+.card-group-template .section-eight {
+  background-color: #fff;
+  border: solid 1px #ebe9e9;
+  margin-top: -1px;
+  padding: 10px 10px;
+}
+.card-group-template .section-eight .username {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #20b698;
+  text-align: left;
+}
+.card-group-template .section-eight .comments {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.card-group-template .section-eight .reply-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #20b698;
+  text-align: left;
+}
+.card-group-template .section-eight .time {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
 }
