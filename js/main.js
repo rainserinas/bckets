@@ -1,6 +1,7 @@
 $(function() {
     attachListenerHeaderNavbar();
     attachListenerHamburgerMenu();
+    slicktInitialiaze();
 });
 
 
@@ -27,4 +28,17 @@ function attachListenerHamburgerMenu() {
         $('#mySidenav').css('width','0');
         $('body').css('background-color','#fff');
     });
+}
+function slicktInitialiaze() {
+    $('.image-slide').slick({
+        dots: true,
+        arrows: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        touchMove: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        cssEase: 'linear'
+    });  
 }

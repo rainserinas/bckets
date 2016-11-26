@@ -49,7 +49,7 @@ h6 {
 .form-control {
   border-radius: 0px;
   background-color: #fafafa;
-  height: 46px;
+  height: 40px;
 }
 .has-feedback-left .form-control-feedback {
   left: 0;
@@ -73,6 +73,7 @@ h6 {
 }
 .btn-primary,
 .btn-primary:hover {
+  box-shadow: none;
   background-color: #20b698;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
@@ -562,6 +563,18 @@ h6 {
 }
 /* Other
   -------------------------------------------------- */
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 3px 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #373a3c;
+  text-align: inherit;
+  white-space: nowrap;
+  background: 0 0;
+  border: 0;
+}
 .card-template {
   text-align: center;
   border: 1px solid #e7e7e7;
@@ -784,8 +797,13 @@ h6 {
   margin: 0;
 }
 .group-tour-template .group-tour-header-holder {
-  border: 1px solid #e7e7e7;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  border: 1px solid #ebe9e9;
+  background-color: #fafafa;
+}
+.group-tour-template .group-tour-header-holder .dropdown-menu {
+  right: 0;
+  left: initial;
+  margin-top: 10px;
 }
 .group-tour-template .group-tour-header-holder .group-tour-subheader {
   background-color: #fafafa;
@@ -836,6 +854,15 @@ h6 {
   color: #fff;
   margin-bottom: 15px;
 }
+.group-tour-template .group-tour-header-holder .group-tour-header .who-booked li {
+  padding-right: 5px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .who-booked li img {
+  width: 35px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .name {
+  padding: 0 15px;
+}
 .group-tour-template .group-tour-header-holder .group-tour-header .slot {
   background-color: #fff;
   border-top: none!important;
@@ -849,15 +876,24 @@ h6 {
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .plus {
   background-color: #5c6d80;
   border-radius: 50%;
-  width: 46px;
-  height: 46px;
+  width: 35px;
+  height: 35px;
   text-align: center;
-  padding: 12px 10px;
+  padding: 9px 3px;
   color: #fff;
+  font-size: 12px;
 }
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder {
-  float: right;
   text-align: center;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder .btn-primary {
+  margin-top: 14px;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder .btn-primary:hover,
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder .btn-primary:focus {
+  color: #20b698;
 }
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .date {
   font-size: 14px;
@@ -891,9 +927,258 @@ h6 {
   font-weight: 600;
   margin-top: 10px;
 }
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .join-tour:hover,
+.group-tour-template .group-tour-header-holder .group-tour-header .slot .join-tour:focus {
+  background-color: transparent;
+  color: #1db2cf;
+  border: 1px solid #1db2cf;
+}
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-left {
   color: #1db2cf;
   font-weight: 600;
+}
+.group-tour-template .group-tour-body-holder {
+  border: 1px solid #ebe9e9;
+  background-color: #fafafa;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider {
+  margin: 20px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fafafa;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .item-slide {
+  height: 358px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 15px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .name h5 {
+  color: #fff;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .name h5 i {
+  color: #5bd784;
+  margin-left: 10px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .name .star {
+  color: #f1c500;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .discount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f39f00;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .days-left {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .image-slide {
+  padding: 7px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .slick-dots li button:before {
+  font-family: 'FontAwesome';
+  content: "\f111";
+  font-size: 15px;
+  line-height: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  opacity: 1;
+  color: #fff;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .slick-dots {
+  bottom: 15px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .slick-dots li.slick-active button:before {
+  content: "\f192";
+  opacity: 1;
+  color: #20b698!important;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .slick-dotted.slick-slider {
+  margin-bottom: 7px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .title {
+  padding: 5px 15px 15px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .title .btn-trasparent {
+  border: 1px solid #333;
+  border-radius: 0;
+  font-weight: 600;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .title .btn-trasparent:hover,
+.group-tour-template .group-tour-body-holder .card-image-slider .title .btn-trasparent:focus {
+  background-color: #333;
+  color: #fff;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .title h4 {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .title .sub {
+  color: #1db2cf;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.group-tour-template .group-tour-body-holder .card-image-slider .content {
+  font-size: 14px;
+  padding: 10px 15px 10px;
+  border-top: 2px solid #ebe9e9;
+}
+.group-tour-template .group-tour-body-holder .card-comment {
+  background: #fff;
+  border: 1px solid #ebe9e9;
+  margin: 10px;
+}
+.group-tour-template .group-tour-body-holder .card-comment h5 {
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.group-tour-template .group-tour-body-holder .card-comment .title {
+  padding: 20px;
+  border-bottom: 1px solid #ebe9e9;
+}
+.group-tour-template .group-tour-body-holder .card-comment .title span {
+  font-size: 12px;
+  border: 1px solid #5bd784;
+  color: #20b698;
+  padding: 1px 3px;
+  margin-left: 10px;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content {
+  padding: 20px;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment-input {
+  margin-bottom: 0;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment-input li:first-child {
+  width: 8%;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment-input li:last-child {
+  width: 91%;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment {
+  margin-bottom: 0;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li {
+  vertical-align: top;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child {
+  width: 8%;
+  padding-top: 5px;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child + li {
+  width: 83%;
+  font-size: 14px;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child + li span {
+  color: #1db2cf;
+  font-weight: bold;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child + li p {
+  margin-bottom: 5px;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child + li a {
+  color: #1db2cf;
+}
+.group-tour-template .group-tour-body-holder .card-comment .content .comment li:last-child {
+  width: 7%;
+  font-size: 12px;
+  padding-top: 5px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: #fafafa;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .tab-content {
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .tab-content p {
+  padding-bottom: 15px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .tab-content .fa-ul {
+  margin-left: 18px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .tab-content .fa-ul li {
+  padding-bottom: 7px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .tab-content .readmore {
+  color: #48bdd5;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item.active {
+  border-bottom: 5px solid #48bdd5;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item.active a {
+  color: #48bdd5;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav {
+  background-color: #fff;
+  border: 1px solid #ebe9e9;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav li:first-child,
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav li:first-child + li {
+  margin-right: -5px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav a {
+  font-weight: 600;
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item {
+  text-align: center;
+  width: 33.4%;
+  display: inline-block;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item i {
+  padding-right: 12px;
+  display: none;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item a:hover,
+.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item a:focus {
+  color: #48bdd5!important;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs h4 {
+  font-size: 22px;
+}
+.group-tour-template .group-tour-body-holder .card-image-tabs h4 i {
+  padding-right: 20px;
+}
+#modalParticipant .add a img {
+  width: 30px;
+}
+#modalParticipant h4 {
+  padding-top: 7px;
+}
+#modalParticipant h4 span {
+  font-weight: bold;
+}
+#modalParticipant .participants {
+  cursor: pointer;
+  margin-bottom: 3px;
+  background-color: #ebf2f2;
+  padding: 10px;
+}
+#modalParticipant .participants:hover,
+#modalParticipant .participants:focus {
+  background-color: #5bd784;
+}
+#modalParticipant .participants p {
+  margin: 0;
+  font-size: 14px;
 }
 .section-title {
   font-family: 'Open Sans', sans-serif;
