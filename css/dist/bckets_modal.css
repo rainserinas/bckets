@@ -1,9 +1,29 @@
 /* Start: tour overview modal */
+body {
+  background-color: #f0f0f0;
+}
+.section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.first-title {
+  margin-top: 0px;
+}
+.btn-primary {
+  padding: 8px 50px;
+}
+.btn-primary:hover {
+  padding: 8px 50px;
+  color: #20b698;
+}
 .section-3 p {
   font-family: 'Open sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  padding-top: 18px;
+  padding-top: 10px;
 }
 .section-6 button {
   width: 100%;
@@ -156,24 +176,27 @@
   padding-top: 25px;
   padding-bottom: 50px;
 }
-#small-display .card-display {
-  width: 330px;
-  box-shadow: 0 4px 8px 0 #000000;
-  transition: 0.3s;
+#small-display .inner-padding {
+  padding: 9px 9px;
 }
-#small-display .card-display:hover {
-  box-shadow: 0 8px 16px 0 #000000;
+.card-group-template {
+  background-color: #fff;
+  width: 330px;
+}
+.card-group-template .card-footer {
+  background-color: #f8f8f8;
+  border-top: 1px solid #dad3d3;
+  margin-top: 15px;
 }
 #small-display-section-1 {
   background-image: url(../../img/small-banner.jpg);
   height: 207px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 15px;
 }
 #small-display-section-1 .off {
   font-family: 'Open sans', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 20px;
   color: #f39f00;
 }
@@ -181,7 +204,7 @@
   margin-top: -13px;
   font-family: 'Open sans', sans-serif;
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
 }
 #small-display-section-1 .col-md-6 {
   padding: 6px 24px;
@@ -193,30 +216,30 @@
 #small-display-section-3 h3 {
   font-family: 'Open sans', sans-serif;
   font-size: 16px;
-  font-weight: 800;
-  margin-top: 10px;
+  font-weight: 700;
+  margin-top: 5px;
 }
 #small-display-section-3 h3 i {
   color: #5bd784;
 }
+#small-display-section-3 .star {
+  margin-top: -10px;
+}
 #small-display-section-3 .star i {
   color: #f1c500;
-  margin-top: -5px;
 }
 #small-display-section-3 h2 {
   font-family: 'Open sans', sans-serif;
   font-size: 20px;
   color: #20b698;
-  font-weight: 800;
+  font-weight: 700;
   margin-top: 10px;
 }
 #small-display-section-3 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 14px;
-}
-#small-display-section-4 {
-  background-color: #f8f8f8;
+  margin-bottom: -15px;
 }
 #small-display-section-4 p {
   font-family: 'Open sans', sans-serif;
@@ -228,7 +251,7 @@
 .modal-content {
   border-radius: 0px;
   border: 1px solid #fff;
-  padding: 5px 5px;
+  padding: 15px 20px;
 }
 .modal-content #trip-modal-section-2 {
   background-image: url(../../img/large-display-banner-1.jpg);
@@ -242,7 +265,7 @@
   padding: 10px 0px;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-weight: 800;
+  font-weight: 700;
   background-color: #20b698;
   border: 1px solid #20b698;
   font-size: 20px;
