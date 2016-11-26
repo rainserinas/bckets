@@ -1,4 +1,4 @@
-/* home
+/* Min
   -------------------------------------------------- */
 @media (min-width: 992px) {
 	.hidden-md-up {
@@ -24,6 +24,25 @@
 	}
 }
 @media (min-width: 768px) {
+	.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .discount {
+    	font-size: 30px;
+	}
+	.group-tour-template .group-tour-header-holder .group-tour-header .who-booked li img{
+		width: 46px;
+	}
+	.group-tour-template .group-tour-header-holder .group-tour-header .slot .plus{
+		width: 46px;
+	    height: 46px;
+	    padding: 12px 10px;
+	    font-size: 16px;
+	}
+	.group-tour-header{
+		.slot{
+			.slot-number-holder {
+			    float: right;
+			}
+		}
+	}
 	.group-tour-template {
 		.group-tour-subheader{ 
 			ul {
@@ -78,7 +97,7 @@
 	}
 }
 
-@media (min-width: 480px) {
+@media (min-width: 481px) {
 	.group-tour-header{
 	    .slot{
 			.slot-no {
@@ -86,4 +105,60 @@
 			}
 		}
 	}
+	.group-tour-template .group-tour-body-holder .card-image-tabs .nav-item i {
+    	display: initial;
+	}
+	.group-tour-template .group-tour-body-holder .card-image-tabs .nav a {
+    	font-size: 16px;
+	}
+}
+
+/* Max
+  -------------------------------------------------- */
+@media (max-width: 767px) {
+	.group-tour-template .group-tour-body-holder .card-image-slider .title .btn-trasparent {
+	    font-size: 14px;
+	    padding: 7px 15px;
+	}
+}
+@media (max-width: 620px) {
+	
+	.head-img {
+	    display: none!important;
+	}
+	.group-tour-template .group-tour-body-holder .card-comment .content .comment-input li:first-child {
+	    width: 19%;
+	}
+	.group-tour-template .group-tour-body-holder .card-comment .content .comment-input li:last-child {
+	    width: 79%;
+	}
+	.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child {
+	    width: 17%;
+	    padding-top: 5px;
+	}
+	.group-tour-template .group-tour-body-holder .card-comment .content .comment li:first-child + li {
+	    width: 81%;
+	    font-size: 14px;
+	}
+	.group-tour-template .group-tour-body-holder .card-comment .content .comment li:last-child {
+	    width: 100%;
+	    font-size: 12px;
+	    padding-top: 5px;
+	    text-align: right;
+	}
+	.group-tour-template .group-tour-body-holder .card-image-slider .item-slide .name h5 {
+    	font-size: 16px;
+	}
+}
+
+@media (max-width: 360px) {
+	.group-tour-template .group-tour-header-holder .group-tour-header .slot .pax {
+    	font-size: 26px;
+	}
+	.group-tour-template .group-tour-body-holder .card-image-slider .item-slide {
+	    height: 280px;
+	}
+	.group-tour-template .group-tour-header-holder .group-tour-header .slot .date {
+    	font-size: 12px;
+    }
 }
