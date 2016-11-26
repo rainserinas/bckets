@@ -157,6 +157,7 @@
   padding-bottom: 50px;
 }
 #small-display .card-display {
+  width: 330px;
   box-shadow: 0 4px 8px 0 #000000;
   transition: 0.3s;
 }
@@ -223,3 +224,34 @@
   font-size: 14px;
 }
 /* End: Small Display */
+/* Start: Trip Modal */
+.modal-content {
+  border-radius: 0px;
+  border: 1px solid #fff;
+  padding: 5px 5px;
+}
+.modal-content #trip-modal-section-2 {
+  background-image: url(../../img/large-display-banner-1.jpg);
+  padding: 156px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.modal-content #trip-modal-section-3 button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-weight: 800;
+  background-color: #20b698;
+  border: 1px solid #20b698;
+  font-size: 20px;
+}
+.modal-content #trip-modal-section-4 p.category {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  background-color: #ebe9e9;
+  padding: 5px 14px;
+  width: 87px;
+}
+/* End: Trip Modal */
