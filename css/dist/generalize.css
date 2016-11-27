@@ -888,8 +888,8 @@ h6 {
 }
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder .btn-primary {
   margin-top: 14px;
-  font-size: 18px;
-  padding: 8px 15px;
+  font-size: 16px;
+  padding: 8px 10px;
 }
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder .btn-primary:hover,
 .group-tour-template .group-tour-header-holder .group-tour-header .slot .slot-number-holder .btn-primary:focus {
@@ -923,7 +923,8 @@ h6 {
   border-radius: 0;
   color: #fff;
   text-transform: uppercase;
-  padding: 8px 30px;
+  padding: 8px 15px;
+  font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
 }
