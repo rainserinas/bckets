@@ -1,6 +1,7 @@
 $(function() {
     attachListenerHeaderNavbar();
     attachListenerHamburgerMenu();
+    attachListenerSelectedCategory();
     slicktInitialiaze();
 });
 
@@ -41,4 +42,9 @@ function slicktInitialiaze() {
         autoplaySpeed: 5000,
         cssEase: 'linear'
     });  
+}
+function attachListenerSelectedCategory() {
+    $( ".cat1,.cat2,.cat3,.cat4,.cat5,.cat6,.cat7,.cat8,.cat9" ).click(function() {
+        $(this).toggleClass("selected");
+    });
 }

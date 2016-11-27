@@ -24,6 +24,9 @@
   }
 }
 @media (min-width: 768px) {
+  #modalCategory .modal-dialog {
+    width: 636px;
+  }
   .group-tour-template .group-tour-body-holder .card-image-slider .item-slide .discount {
     font-size: 30px;
   }
