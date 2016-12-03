@@ -545,6 +545,7 @@ h6 {
     background-color: #ebf2f2;
     font-size: 14px;
     padding: 60px 0;
+    border-top: 1px solid #ccc;
     p{
     	margin: 0;
     }
@@ -575,6 +576,25 @@ h6 {
 }
 /* Other
   -------------------------------------------------- */
+.touch-scroll {
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    margin-bottom: 0;
+    text-align: center;
+}
+.touch-scroll ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    li{
+    	display: inline-block;
+    	float: none;
+    }
+}
 .dropdown-item {
     display: block;
     width: 100%;
@@ -695,6 +715,9 @@ h6 {
 			color: #f77f79;
 			margin:0;
 		}
+		.booked{
+			color: #2f94e2;
+		}
 	}
 }
 .card-group-template{
@@ -805,6 +828,12 @@ h6 {
 			font-size: 16px;
 			color: #f77f79;
 			margin:0;
+		}
+		.booked{
+			color: #2f94e2;
+		}
+		.declined{
+			color: #f77f79;
 		}
 	}
 }
