@@ -1,0 +1,152 @@
+#agencyProfileHeader {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../../img/agency-banner.jpg);
+  padding: 60px 0px 0px;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.8);
+}
+#agencyProfileHeader .profile-pic {
+  text-align: center;
+}
+#agencyProfileHeader img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+#agencyProfileHeader .name {
+  position: relative;
+  top: 0px;
+}
+#agencyProfileHeader .name .star {
+  color: #f1c500;
+}
+#agencyProfileHeader .name a {
+  color: #20b698;
+  font-size: 14px;
+}
+#agencyProfileHeader .name h1 {
+  font-size: 24px;
+}
+#agencyProfileHeader .name h1 span {
+  font-size: 14px;
+  margin-left: 20px;
+  color: #5bd784;
+}
+#agencyProfileHeader .name h1 span i {
+  margin-right: 5px;
+  font-size: 18px;
+}
+#agencyProfileHeaderNav {
+  background-image: linear-gradient(rgba(32, 182, 152, 0.7), #1db2cf);
+}
+#agencyProfileHeaderNav ul {
+  text-align: left;
+  margin-top: 38px;
+}
+#agencyProfileHeaderNav ul li:first-child {
+  margin-left: 40px;
+}
+#agencyProfileHeaderNav ul li.active:before,
+#agencyProfileHeaderNav ul li:hover:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 5px solid #fff;
+  bottom: 0px;
+  position: absolute;
+  left: 56px;
+}
+#agencyProfileHeaderNav ul li.active,
+#agencyProfileHeaderNav ul li:hover {
+  border-bottom: 3px solid #fff;
+}
+#agencyProfileHeaderNav ul li {
+  text-align: center;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  width: 120px;
+  position: relative;
+}
+#agencyProfileHeaderNav ul li h2 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+#agencyProfileHeaderNav ul li p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 14px;
+}
+#agencyProfileHeaderNav .get-more {
+  text-align: center;
+  padding-top: 39px;
+}
+#agencyProfileHeaderNav .get-more .btn-white {
+  background-color: #fff;
+  border-radius: 0;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1db2cf;
+  padding: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#agencyProfileHeaderNav .get-more .btn-public-white {
+  background-color: #fff;
+  border-radius: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #1db2cf;
+  padding: 8px 30px;
+  margin-top: 15px;
+}
+#agencyProfileBody {
+  background-color: #ebf2f2;
+  padding: 30px 0;
+}
+#agencyProfileBody .agency-profile-search {
+  padding: 20px 0 10px;
+}
+#agencyProfileBody .agency-profile-search .form-control {
+  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  height: 50px;
+}
+#agencyProfileBody .agency-profile-tab-nav li a {
+  font-size: 14px;
+  padding: 1px 19px;
+}
+#agencyProfileBody .agency-profile-tab-nav .nav-pills > li.active > a {
+  font-weight: bold;
+  border: 2px solid #1db2cf;
+  padding: 1px 19px;
+  border-radius: 3px;
+  margin: auto;
+  background-color: transparent;
+  color: #1db2cf;
+}
+#agencyProfileBody .agency-profile-tab {
+  text-align: center;
+  margin-bottom: 0px;
+}
+#agencyProfileBody .agency-profile-tab a {
+  background-color: transparent;
+  border: 1px solid #dddddd;
+  padding: 7px 7px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+}
+#agencyProfileBody .agency-profile-tab a.active {
+  background-color: #1db2cf;
+  border: 1px solid #1db2cf;
+  color: #fff;
+}
