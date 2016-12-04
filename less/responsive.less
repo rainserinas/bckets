@@ -164,6 +164,28 @@
 		margin-bottom: 20px;
 	}
 }
+@media (max-width: 991px) {  
+	#reviewSection .review-card {
+		padding: 20px;
+	}
+	#reviewSection .review-card .review-body .review-input li:last-child {
+	    width: 100%;
+	    padding-top: 20px;
+	    text-align: right;
+	}
+	#reviewSection .review-card .review-body .review-input li:first-child + li {
+	    width: 89%;
+	}
+	#reviewSection .review-card .review-body .review-input li:first-child {
+	    width: 10%;
+	}
+	#reviewSection .review-card .review-body .review-date .date,#reviewSection .review-card .review-body .review-reply .date,#reviewSection .review-card .review-body .review-date .content,#reviewSection .review-card .review-body .review-reply .replied{
+    	width: 100%;
+    }
+    #reviewSection .review-card .review-profile{
+    	padding-bottom: 10px;
+    }
+}
 @media (max-width: 767px) {
 	#agencyProfileHeaderNav .get-more .btn + .btn {
 	    margin-left: 7px;
@@ -218,7 +240,14 @@
     	font-size: 16px;
 	}
 }
-
+@media (max-width: 480px) {
+#reviewSection .review-card .review-body .review-input li:first-child {
+    width: 18%;
+}
+#reviewSection .review-card .review-body .review-input li:first-child + li {
+    width: 80%;
+}
+}
 @media (max-width: 360px) {
 	.group-tour-template .group-tour-header-holder .group-tour-header .slot .pax {
     	font-size: 26px;
