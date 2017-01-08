@@ -881,6 +881,7 @@ h6 {
 		    	position: relative;
 		    	display: inline-block;
 		    	font-size: 14px;
+		    	    font-weight: 600;
 		    	img{
 		    		padding-right: 5px;
     				padding-bottom: 3px;
@@ -946,6 +947,10 @@ h6 {
 				font-size: 16px;
 				font-weight: 600;
 				color: @DarkTextColor;
+				i{
+					color: #5bd784;
+					padding-left: 5px;
+				}
 			}
 			.date{
 				font-size: 14px;
@@ -953,6 +958,13 @@ h6 {
 			}
 			.fa-plane{
 				padding-right: 5px;
+			}
+		}
+		.star{
+			padding-bottom: 10px;
+			i{
+				color: #f1c500;
+				font-size: 14px;
 			}
 		}
 	}
@@ -977,6 +989,19 @@ h6 {
 		.declined{
 			color: #f77f79;
 		}
+	}
+}
+.card-group-template.type-2{
+	 .card-image-section .card-title h4{
+	 	margin-bottom: 0;
+	 }
+}
+.card-group-template.long{
+	.card-image-section .card-image{
+		height: 550px;
+	}
+	.card-image-section .card-headshot{
+		    top: 450px;
 	}
 }
 .group-tour-template{

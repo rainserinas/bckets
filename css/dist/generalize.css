@@ -846,6 +846,7 @@ h6 {
   position: relative;
   display: inline-block;
   font-size: 14px;
+  font-weight: 600;
 }
 .card-group-template .card-image-section .group-date ul li:first-child {
   padding-right: 10px;
@@ -915,12 +916,23 @@ h6 {
   font-weight: 600;
   color: #333;
 }
+.card-group-template .card-image-section .card-title h4 i {
+  color: #5bd784;
+  padding-left: 5px;
+}
 .card-group-template .card-image-section .card-title .date {
   font-size: 14px;
   font-weight: 600;
 }
 .card-group-template .card-image-section .card-title .fa-plane {
   padding-right: 5px;
+}
+.card-group-template .card-image-section .star {
+  padding-bottom: 10px;
+}
+.card-group-template .card-image-section .star i {
+  color: #f1c500;
+  font-size: 14px;
 }
 .card-group-template .card-detailed-section {
   background-color: #f8f8f8;
@@ -943,6 +955,15 @@ h6 {
 }
 .card-group-template .card-detailed-section .declined {
   color: #f77f79;
+}
+.card-group-template.type-2 .card-image-section .card-title h4 {
+  margin-bottom: 0;
+}
+.card-group-template.long .card-image-section .card-image {
+  height: 550px;
+}
+.card-group-template.long .card-image-section .card-headshot {
+  top: 450px;
 }
 .group-tour-template .group-tour-header-holder {
   border: 1px solid #ebe9e9;
