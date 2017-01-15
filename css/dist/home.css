@@ -1,5 +1,5 @@
 #homeMain {
-  background-image: url(../../img/home-main-banner.jpg);
+  background-image: url(../../img/home-main-banner2.jpg);
   padding: 170px 0 0;
   background-position: 68% center;
 }
@@ -78,11 +78,52 @@
   margin-bottom: 20px;
 }
 #home-cta {
-  background-image: url(../../img/home-cta-banner2.jpg);
+  background-image: url(../../img/home-cta-banner2B.jpg);
+  padding: 80px 0;
+  background-position: 30% center;
 }
 #home-cta p {
   font-size: 18px;
 }
 #home-cta .sub {
   font-size: 22px;
+}
+#home-cta .btn-transparent {
+  background-color: #fff;
+  color: #20b698;
+  font-size: 18px;
+  font-weight: 500;
+}
+#home-cta .btn-transparent:hover {
+  background-color: #20b698;
+  color: #fff;
+}
+#home-cta .quotes {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  padding: 15px 0 30px;
+}
+#home-cta .quotes .fa-quote-right {
+  font-size: 24px;
+  padding-left: 13px;
+  position: relative;
+  top: 4px;
+  font-style: italic;
+}
+#home-cta .quotes .fa-quote-left {
+  font-size: 24px;
+  padding-right: 11px;
+  bottom: 10px;
+  position: relative;
+  font-style: italic;
+}
+#home-cta .quotes .by {
+  font-size: 18px;
+  text-align: right;
+  font-weight: 400;
+  position: relative;
+  right: 112px;
 }
