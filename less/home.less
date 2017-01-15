@@ -1,8 +1,8 @@
 @import 'lib.less';
 
-#homeMain{
-	background-image: url(../../img/home-main-banner.jpg);
-	padding: 170px 0 0;
+#homeMain{ 
+	background-image: url(../../img/home-main-banner2.jpg);
+	padding: 170px 0 0; 
 	background-position: 68% center;
 	.title {
 		margin-bottom: 40px;
@@ -90,11 +90,52 @@
 	
 }
 #home-cta{
-	background-image: url(../../img/home-cta-banner2.jpg);
+	background-image: url(../../img/home-cta-banner2B.jpg);
+	    padding: 80px 0;
+	        background-position: 30% center;
 	p{
 		font-size: 18px;
 	}
 	.sub{
 		font-size: 22px;
+	}
+	.btn-transparent {
+		&:hover {
+			background-color: #20b698;
+			color: #fff;
+		}
+		background-color: #fff;
+		color: #20b698;
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.quotes {
+		.fa-quote-right {
+		    font-size: 24px;
+		    padding-left: 13px;
+		    position: relative;
+		    top: 4px;
+		    font-style: italic;
+		}
+		.fa-quote-left {
+		    font-size: 24px;
+		    padding-right: 11px;
+		    bottom: 10px;
+		    position: relative;
+		    font-style: italic;
+		}
+		.by {
+		    font-size: 18px;
+		    text-align: right;
+		    font-weight: 400;
+		    position: relative;
+    		right: 112px;
+		}
+	    font-size: 24px;
+	    color: #fff;
+	    font-weight: 600;
+	    text-align: center;
+	    font-style: italic;
+	    padding:15px 0 30px
 	}
 }
