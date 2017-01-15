@@ -1601,7 +1601,7 @@ h6 {
   color: #1db2c8;
   padding-top: 4px;
 }
-.msg-private-holder .msg-private .body .reply .bubble {
+.msg-private-holder .msg-private .body .reply .msg {
   background-color: #f2fafa;
 }
 .msg-private-holder .msg-private .footer {
