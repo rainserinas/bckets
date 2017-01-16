@@ -152,13 +152,20 @@
 	    	margin-right: 80px;
 	    }
 	}
-    #seekShare h1,#home-cta h1,#homeCtaBanner h1{
+    #seekShare h1,#homeCtaBanner h1{
 		font-size: 44px;
+	}
+	#home-cta h1{
+		font-size: 40px;
 	}
 }
 /* Max
   -------------------------------------------------- */
 @media (max-width: 1199px) {  
+	#home-cta .quotes .by{
+		position: inherit;
+		    padding-top: 15px;
+	}
 	#agencyProfileHeaderNav .get-more .btn-public-white{
 		display: block;
 	}
@@ -166,8 +173,11 @@
 		margin-left: 0;
 		margin-bottom: 20px;
 	}
-}
-@media (max-width: 991px) {  
+} 
+@media (max-width: 991px) { 
+	#home-cta{
+	    background-position: 100% center;
+	}  
 	#reviewSection .review-card {
 		padding: 20px;
 	}
