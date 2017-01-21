@@ -179,11 +179,11 @@ body {
 #small-display .inner-padding {
   padding: 9px 9px;
 }
-.card-group-template {
+.card-group-template.card-tour-details {
   background-color: #fff;
   width: 330px;
 }
-.card-group-template .card-footer {
+.card-group-template.card-tour-details .card-footer {
   background-color: #f8f8f8;
   border-top: 1px solid #dad3d3;
   margin-top: 15px;
