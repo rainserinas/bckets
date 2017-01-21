@@ -1,0 +1,61 @@
+#agency-info-body {
+  background-color: #ebf2f2;
+  padding: 10px 10px;
+}
+#agency-info-body .required-asterisk {
+  color: #f77f79;
+}
+#section-one {
+  background-image: url('../../img/agency-info-banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px 10px;
+}
+#section-one h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+#section-one p.s1-p1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+#section-one p.s1-p2 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+#section-two {
+  background-color: #fff;
+  padding: 10px 15px;
+  text-align: left;
+  height: 715px;
+}
+#section-two .name,
+#section-two .contact,
+#section-two .about,
+#section-two .location,
+#section-two .website,
+#section-two .social-media {
+  padding-bottom: 10px;
+}
+#section-two .label-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+#section-two .social-media-label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+#section-two .social-media-container {
+  padding-top: 10px;
+}
