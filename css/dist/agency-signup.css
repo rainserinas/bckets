@@ -1,0 +1,49 @@
+#agency-signup {
+  background-color: #ebf2f2;
+}
+#agency-signup span {
+  color: #1db2cf;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+.card-group-template {
+  margin-top: 10px;
+}
+.signup-div {
+  background-color: #fff;
+}
+.section-one {
+  padding: 15px 0px;
+}
+.section-one h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.section-two {
+  padding: 0px 15px;
+}
+.section-two input.form-control,
+.section-two textarea.form-control {
+  margin-bottom: 13px;
+}
+.section-three {
+  padding: 0px 15px;
+}
+.section-three button {
+  margin-top: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.section-three p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.section-four {
+  padding: 5px 5px;
+}
+.section-four p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
