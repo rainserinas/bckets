@@ -1,0 +1,91 @@
+#mainFeedHeader {
+  background-image: url(../../img/header-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+#mainFeedHeader .profile-picture {
+  display: inline-block;
+  width: 28%;
+  vertical-align: top;
+}
+#mainFeedHeader .profile-picture img {
+  margin-left: auto;
+}
+#mainFeedHeader .title {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  padding-top: 41px;
+  vertical-align: top;
+}
+#mainFeedHeader .title h1 {
+  margin-bottom: 0;
+  font-size: 48px;
+  color: #fff;
+  font-weight: 400;
+}
+#mainFeedHeader .description {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  color: #fff;
+  border-left: 1px solid #fff;
+  margin-top: 24px;
+  padding-left: 31px;
+  font-size: 14px;
+}
+#mainFeedHeader .description p {
+  margin: 10px 0;
+}
+#mainFeedHeader .place {
+  margin-bottom: 40px;
+}
+#mainFeedHeader ul li {
+  text-align: center;
+  position: relative;
+  margin: 0 35px;
+  padding: 0 20px 10px;
+}
+#mainFeedHeader ul li h2 {
+  font-size: 20px;
+  color: #fff;
+  margin: 0;
+}
+#mainFeedHeader ul li.active {
+  border-bottom: 3px solid #fff;
+}
+#mainFeedHeader ul li.active:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 5px solid #fff;
+  bottom: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#mainFeedHeader ul li:hover {
+  border-bottom: 3px solid #fff;
+}
+#mainFeedHeader ul li:hover:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 5px solid #fff;
+  bottom: 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#mainFeedListing {
+  padding: 60px 0;
+  background-color: #ebf2f2;
+}
