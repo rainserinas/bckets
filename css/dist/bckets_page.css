@@ -1,0 +1,68 @@
+#bcketsPage {
+  background-color: #ebf2f2;
+  padding: 10px 10px;
+}
+#bcketsPage div.white-bg {
+  background-color: #fff;
+  padding: 5px 12px;
+}
+#bcketsPage .section-one {
+  padding: 5px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+#bcketsPage .section-one p {
+  position: relative;
+  top: 10px;
+  right: 40px;
+}
+#bcketsPage .section-one p i {
+  color: #5bd784;
+}
+#bcketsPage .section-one div.stars i {
+  color: #f1c500;
+  position: relative;
+  right: 73px;
+}
+#bcketsPage .section-two {
+  background-image: url('../../img/bckets-page-1.jpg');
+  padding: 98px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#bcketsPage .section-three {
+  margin-top: 15px;
+}
+#bcketsPage .section-three .image-1 {
+  background-image: url('../../img/bckets-page-2.jpg');
+  padding: 65px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#bcketsPage .section-three .image-2 {
+  background-image: url('../../img/bckets-page-3.jpg');
+  padding: 65px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#bcketsPage .section-four h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 15px;
+}
+#bcketsPage .section-four p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  line-height: 23px;
+}
+#bcketsPage .section-five button {
+  width: 100%;
+  margin-bottom: 8px;
+}
